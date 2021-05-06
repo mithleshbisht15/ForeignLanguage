@@ -1,0 +1,713 @@
+.header
+{
+	line-height: 35px;
+	text-align: center;
+	background-color: #003063;
+}
+.info a
+{
+ color: white;
+ text-decoration: none;
+}
+.info
+{
+	padding-top: 6px;
+}	
+.info a:hover
+{
+	color: orange;
+}
+
+.fbicons
+{
+	padding-top: 6px;
+}
+
+
+
+/***************pay now********************/
+ul
+{
+ list-style-type: none;
+
+}
+ul li 
+{
+	display: inline;
+
+}
+#bpc ul li a
+{
+	
+    text-decoration: none;
+    
+    
+    border-radius: 10px;
+    box-shadow: 3px 8px 8px 0px orange ;
+    padding: 10px;
+    padding-top: 14px;
+    padding-bottom: 21px;
+}
+
+#bpc
+{
+	margin-top: 10px;   
+}
+#bpc ul li a
+{
+  color: black;
+  font-size: 20px;
+  
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {background-color:red;}
+  25%  {background-color:green;}
+  50%  {background-color:cyan; }
+  75%  {background-color:orange; }
+  100% {background-color:red;}
+}
+
+@media screen and (max-width: 650px)
+{
+  #bpc ul li {
+    
+    margin-right: 9%;
+    padding: 0px;
+}
+}
+
+/****************pay now end *******************/
+
+
+
+
+
+/**************************    Navigation  ***************************/
+.head11
+{
+	position: sticky;
+	top: 0;
+	padding-bottom: 10px;
+	margin-bottom: 13px;
+	background-color: white;
+	z-index: 1;
+}
+.bs
+{
+	padding-top: 18px;
+	
+}
+#navigation
+{
+	padding-top: 18px;
+	padding-right: 150px;
+}	
+#navigation ul li a
+{
+	text-decoration: none;
+}
+	nav ul
+		{
+			list-style: none;
+			float: right;
+			margin-right: 60px;
+			position: relative;
+			margin: 0;
+			padding: 0;
+
+		}
+		nav ul li
+		{
+			float: left;
+			display: inline-block;
+			margin: 0 5px;
+			text-decoration: none;
+	 		border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            background-color: #003063;
+           
+		}
+		nav ul li a
+		{
+			color:white;
+			text-decoration: none;
+			line-height: 60px;
+			font-size: 18px;
+			padding: 8px 15px;
+
+		}
+		nav ul li a:hover
+		{
+			color:orange;
+		}
+		nav ul ul li a:hover
+		{
+			color: orange;	
+		}
+		nav ul ul
+		{
+			position: absolute;
+			top:90px;
+			opacity: 0;
+			visibility: hidden;
+			transition: top .3s;
+		}
+		nav ul li:hover > ul
+		{
+			top:60px;
+			opacity: 1;
+			visibility: visible;
+		}
+		nav ul ul li
+		{
+			position: relative;
+			text-decoration: none;
+			margin: 0px;
+			width: 130px;
+			float: none;
+			display: list-item;
+			border-bottom: 1px solid grey;
+		}
+		nav ul ul li a
+		{
+			line-height: 50px;
+		}
+         ul li a.active
+         {
+         	color:orange;
+         }
+
+         @media screen and (max-width: 600px)
+          {
+              .navb ul li
+              {
+              	display: block;
+              	overflow: hidden;
+              }  
+         }
+
+
+
+/********************************* Navigation End  *******************************/
+ /** .mainimg
+{
+	background-image: url("D:/Front End Development/Brillica Service/brillica/images1/mainimg.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;     */
+
+
+.jpg
+{
+	z-index: -1;
+}
+
+/********************************* Form ***********************************/
+
+
+         .rf
+         {
+         	
+         	padding-left: 122px;
+         	color: white;
+         }
+
+         .navform
+		{
+			background-color:  #003063;
+	        border-radius: 50px;
+        	width: 550px;
+        	height: 500px;
+        	margin-left: 10%;
+            overflow: hidden;
+            padding-top: 30px;
+        }
+        .register
+        {
+        	color: white;
+        	font-size: 18px;
+        	padding: 20px;
+        	padding-left: 30px;
+        	margin-left: 80px;
+        	margin-top: 10px;
+        }
+        #num
+        {
+        	padding: 7px;
+        	width: 50px;
+        	border-radius: 9px;
+        	 margin-bottom: 14px;
+        }
+        #num1
+        {
+        	padding: 7px;
+        	width: 245px;
+        	border-radius: 9px;
+        	 margin-bottom: 14px;
+        }
+        #name
+        {
+             width: 300px;
+             border-radius: 9px;
+             padding: 7px;
+             margin-bottom: 14px;
+        }
+        #slct1
+        {
+        	 width: 300px;
+             border-radius: 9px;
+             padding: 7px;
+              margin-bottom: 14px;
+        }
+        #slct2
+        {
+        	 width: 300px;
+             border-radius: 9px;
+             padding: 7px;
+              margin-bottom: 14px;
+        }
+        .submitbtn
+        {
+        	background-color: orange;
+        }
+
+
+
+
+#lbl
+		{
+			visibility: hidden;
+			color: red;
+		}
+#course9
+{
+	visibility: hidden;
+			color: red;
+}
+#slctstate
+{
+    visibility: hidden;
+			color: red;	
+}
+
+
+@media screen and (max-width: 850px) {
+  .navform{
+    width: 100%; 
+    margin-left: 0%;
+}
+}
+
+
+/********************************** form End ******************************/
+
+
+
+
+
+
+/********************************popup***************************************/
+
+* {box-sizing: border-box;}
+
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #003063;
+  color: white;
+  padding: 16px 20px;
+  line-height: 50px;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+  z-index: 2;
+  position: fixed;
+  right: 0px;
+  margin-top: 145px;
+  width: 148px;
+  font-size: 18px;
+  	border:none;
+}
+
+.open-button:hover
+{
+	color: orange;
+
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  margin-left:30%;
+  margin-bottom: 100%;
+  border: 5px inset orange;
+  border-radius: 10px;
+  z-index: 9;
+  background-color: #003063;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 550px;
+  padding: 10px;
+ margin-left: 16%;
+ 
+}
+.form-container h1
+{
+	margin-left: 3%;
+	color: orange;
+}
+.form-container #slct99
+{
+	width: 80%;
+  padding: 15px;
+  margin: 5px 0 7px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=email] {
+  width: 80%;
+
+  padding: 15px;
+  margin: 5px 0 7px 0;
+  border: none;
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=email]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  margin-left: 15%;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  margin-bottom:10px;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+/********************************popupend *************************************/
+
+
+
+
+
+
+/**********************************  courses ******************************/
+
+
+.heading
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-top: 50px;
+	background-color: #f6f6f6;
+}
+.cimg
+{
+	padding-top: 15px;
+}
+.images
+{
+    background-color: #f6f6f6;
+}
+.courses
+{
+/*	border:5px inset #003063;    */
+	text-align: center;	
+	background-image: cover;
+	padding-bottom: 15px;
+	background-color: white;
+}
+.courses .btn
+{
+	background-color: #003063; 
+}
+.courses .btn:hover
+{
+	background-color: orange;
+}
+.courses h4 
+{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+.courses h4:hover
+{
+	color: red;
+}
+
+.heading1
+{
+	
+	text-align: center;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	padding-top: 50px;
+	background-color: #f6f6f6;
+}
+
+.courses1
+{
+/*	border:5px inset #003063;   */
+	text-align: center;	
+	background-image: cover;
+	padding-bottom: 15px;
+	margin-left:70px; 
+	background-color: white;
+}
+.courses1 .btn
+{
+	background-color: #003063; 
+}
+.courses1 .btn:hover
+{
+	background-color: orange;
+}
+.courses1 h4 
+{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+.courses1 h4:hover
+{
+	color: red;
+}
+
+.courses2
+{
+	/*border:2px inset #003063;*/
+	text-align: center;	
+	padding-bottom: 15px;
+	margin-left: 80px;
+	background-color: white;
+}
+.courses2 .btn
+{
+	background-color: #003063; 
+}
+ .btn:hover
+{
+	background-color: orange;
+}
+.courses2 h4 
+{
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+.courses2 h4:hover
+{
+	color: red;
+}
+
+
+.courses3
+{
+	/*border:5px inset #003063;*/
+	text-align: center;	
+	background-image: cover;
+	padding-bottom: 15px;
+	margin-left: 110px;
+    background-color: white;
+}
+.courses3 .btn
+{
+	background-color: #003063; 
+}
+.courses3 .btn:hover
+{
+	background-color: orange;
+}
+.courses3 h4 
+{
+  background-color: black;
+  color:white;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.courses3 h4:hover
+{
+	color: red;
+}
+
+.courses p1, .courses1 p1, .courses3 p1, .courses2 p1
+
+{
+	color: grey;
+}
+.courses p1:hover, .courses1 p1:hover, .courses3 p1:hover, .courses2 p1:hover
+
+{
+	color: #003063; 
+}
+.courses p, .courses1 p, .courses2 p, .courses3 p
+{
+	color: grey;
+	font-size: 25px;
+}
+.courses p:hover, .courses1 p:hover, .courses2 p:hover, .courses3 p:hover
+{
+	color: #003063; 
+	
+}
+
+
+@media screen and (max-width: 800px) {
+  .courses1, .courses2, .courses3{
+    width: 100%; 
+    margin:0px;
+  }
+}
+
+
+
+/******************************* course end ********************************/
+
+
+
+/***************************  Exclusive feature *************************/
+.EF
+{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	text-align: center;
+	
+}
+.EF1
+{
+		
+		padding-bottom: 40px;
+}
+.ef
+{
+	padding-left: 50px;
+}
+
+
+/***************************** Exclusive Feature End *******************************/
+
+
+/****************************** Testimonial ************************************/
+
+
+.testi
+{
+	text-align: center;
+	padding-top: 30px;
+}
+.slider50
+{
+margin-bottom: 50px;
+}
+
+/********************************* testimonial end *******************************/
+
+
+
+
+/******************************* Leave us a quick note******************************/
+
+.form2
+		{
+			margin-top: 45px;
+			text-align: center;
+
+		}
+		#form3
+		{
+			line-height: 30px;
+			font-size: 16px;
+
+
+		}
+		.selectt3
+        {
+        	 width: 200px;
+             padding: 5.5px;
+        }
+        .btttn1
+        {
+        	line-height: 31px;
+        	padding-left: 50px;
+        	padding-right: 50px;
+        	background-color: orange;
+        }
+
+/************************* Leave us a quick note end **************************/
+
+
+
+/*************************** footer **************************************/
+
+
+.footer
+{
+	background-color:  #003063;
+	margin-top: 60px;
+}
+.footer1 
+{
+	color: white;
+	padding-top: 40px;
+}
+.footer1 li:hover
+{
+	color: orange;
+}
+.footer2
+{
+	color: white;
+	padding-top: 40px;
+}
+.footer2 li a
+{
+	text-decoration: none;
+	color: white;
+}
+.footer2 li a:hover
+{
+	color: orange;
+}
+.map
+{
+	color: white;
+	padding-top: 40px;
+}
+
+
+/***********************footer end*********************************/

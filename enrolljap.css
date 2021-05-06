@@ -1,0 +1,338 @@
+.header
+{
+	line-height: 35px;
+	text-align: center;
+	background-color: #003063;
+}
+.info a
+{
+ color: white;
+ text-decoration: none;
+}
+.info
+{
+	padding-top: 6px;
+}
+.info a:hover
+{
+	color: orange;
+}
+
+.fbicons
+{
+	padding-top: 4px;
+}
+
+
+
+/***************pay now********************/
+ul
+{
+ list-style-type: none;
+}
+ul li 
+{
+	display: inline;
+
+}
+ul li a
+{
+	padding-right: 35px;
+    text-decoration: none;
+    color: white;
+}
+
+#bpc
+{
+	padding-top: 6px;
+}
+#bpc ul li a
+{
+	text-decoration: none;
+}
+#bpc ul li a
+{
+  
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example {
+  0%   {color:red;}
+  25%  {color:white;}
+  50%  {color:cyan; }
+  75%  {color:orange; }
+  100% {color:red;}
+}
+
+
+
+/****************pay now end *******************/
+
+
+
+/**************************    Navigation  ***************************/
+.head11
+{
+	position: sticky;
+	top: 0;
+	padding-bottom: 10px;
+	margin-bottom: 13px;
+	background-color: white;
+	z-index: 1;
+}
+.bs
+{
+	padding-top: 18px;
+	
+}
+#navigation
+{
+	padding-top: 18px;
+	padding-right: 150px;
+}	
+#navigation ul li a
+{
+	text-decoration: none;
+}
+	nav ul
+		{
+			list-style: none;
+			float: right;
+			margin-right: 60px;
+			position: relative;
+			margin: 0;
+			padding: 0;
+
+		}
+		nav ul li
+		{
+			float: left;
+			display: inline-block;
+			margin: 0 5px;
+			text-decoration: none;
+	 		border-top-right-radius: 20px;
+            border-bottom-left-radius: 20px;
+            background-color: #003063;
+           
+		}
+		nav ul li a
+		{
+			color:white;
+			text-decoration: none;
+			line-height: 60px;
+			font-size: 18px;
+			padding: 8px 15px;
+
+		}
+		nav ul li a:hover
+		{
+			color:orange;
+		}
+		nav ul ul li a:hover
+		{
+			color: orange;	
+		}
+		nav ul ul
+		{
+			position: absolute;
+			top:90px;
+			opacity: 0;
+			visibility: hidden;
+			transition: top .3s;
+		}
+		nav ul li:hover > ul
+		{
+			top:60px;
+			opacity: 1;
+			visibility: visible;
+		}
+		nav ul ul li
+		{
+			position: relative;
+			text-decoration: none;
+			margin: 0px;
+			width: 130px;
+			float: none;
+			display: list-item;
+			border-bottom: 1px solid grey;
+		}
+		nav ul ul li a
+		{
+			line-height: 50px;
+		}
+         ul li a.active
+         {
+         	color:orange;
+         }
+
+         
+ 
+/********************************* Navigation End  *******************************/
+
+
+
+.b
+{
+	
+	background-color: #f6f6f6;
+}
+.b h1
+{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.bb
+{
+	margin-top: 80px;
+}
+.bb h3
+{
+		margin-left: 250px;
+}
+
+.pay
+{
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+.form
+{
+  padding-left: 80px;
+  margin-top: 80px;
+}
+.inp
+{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	padding-right: 100px;
+}
+
+.butn
+{
+	padding-right:60px; 
+	padding-left:60px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: orange;
+	color:#003063;
+}
+.butn:hover
+{
+	color:orange;
+	background-color: #003063;
+}
+
+.img
+{
+	margin:0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/******************************* Leave us a quick note******************************/
+
+.form2
+		{
+			margin-top: 45px;
+			text-align: center;
+
+		}
+		#form3
+		{
+			line-height: 30px;
+			font-size: 16px;
+
+
+		}
+		.selectt3
+        {
+        	 width: 200px;
+             padding: 5.5px;
+        }
+        .btttn1
+        {
+        	line-height: 31px;
+        	padding-left: 50px;
+        	padding-right: 50px;
+        	background-color: orange;
+        }
+
+/************************* Leave us a quick note end **************************/
+
+
+
+/*************************** footer **************************************/
+
+
+.footer
+{
+	background-color:  #003063;
+	margin-top: 60px;
+}
+.footer1 
+{
+	color: white;
+	padding-top: 40px;
+}
+.footer1 li:hover
+{
+	color: orange;
+}
+.footer2
+{
+	color: white;
+	padding-top: 40px;
+}
+.footer2 li a
+{
+	text-decoration: none;
+}
+.footer2 li a:hover
+{
+	color: orange;
+}
+.map
+{
+	color: white;
+	padding-top: 40px;
+}
+
+
+/***********************footer end*********************************/
